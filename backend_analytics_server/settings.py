@@ -133,3 +133,6 @@ API_URL = 'https://jsonplaceholder.typicode.com/posts'
 LOGIN_URL = '/login/'
 # Éxito: luego de autenticación exitosa
 LOGIN_REDIRECT_URL = '/'
+# Luego de cerrar sesión, redirigir al login
+LOGOUT_REDIRECT_URL = '/login/'
+
